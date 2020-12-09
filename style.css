@@ -1,0 +1,58 @@
+#board li{
+    float: left;
+    margin: 15px;
+    height: 105px;
+    width: 105px;
+    font-size: 75px;
+    background: #99CCFF;
+    color: Gold;
+    list-style: none;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  #board li:hover{
+    cursor: pointer;
+    background: #38006694;
+  }
+
+.Bbox{
+    width: 500px;
+    overflow: auto;
+    margin: 40px auto;
+    background: #003366;
+    padding-bottom: 40px;
+    border-radius: 10px;
+  }
+
+  h1{
+      width: 350px;
+      margin:40px auto;
+      text-align: center;
+  }
+  h2{
+    width: 350px;
+    margin:40px auto;
+    text-align: center;
+  }
+  #reset{
+      width:350px;
+      margin:auto;
+      text-align: center;
+  }
+
+  button{
+      border:none;
+      color:gold;
+      text-decoration: none;
+      background-color: white;
+      font-size:40px;
+      font-family:cursive;
+  }
+
+  button:hover{
+      border:solid 2px rgba(255, 217, 0, 0.753);
+      border-radius: 15px;
+      color:rgba(255, 217, 0, 0.616);
+      box-shadow:3px 5px lightgoldenrodyellow;
+  }
